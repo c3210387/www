@@ -7,5 +7,9 @@
     </head>
     <body>
      <h1>Reasponsive Design Practice</h1>
+     <h2>Section 1</h2>
+     <p>This is the section. It has a light blue background, padding. margin and a box
+       shadow. The layout adjusts responsively to different screen sizes
+     </p>
     </body>
     </html>
