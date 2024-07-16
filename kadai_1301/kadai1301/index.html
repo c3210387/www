@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>"Responsive Design with Button Actions"</title>
+        <style>
+            body{background-color:lightcyan
+            }
+            #section1{
+              background-color:paleturquoise;
+            margin: 5px;
+            }
+            #section2{
+              background-color:beige;
+            margin: 5px;
+            }
+            #section3{
+              background-color: lavenderblush;
+            margin: 5px;
+            }
+            @media screen and (max-width:768px)
+            {
+        #section1{
+          margin: 5px;
+          height: 100%;
+          width: 200%;
+          max-width: 900px;
+        }
+        #section2{
+          margin: 5px;
+          height: 100%;
+          width: 200%;
+          max-width: 900px;
+        }
+        #section3{
+          background-color:lavenderblush;
+          margin: 5px;
+          height: 100%;
+          width: 200%;
+          max-width: 900px;
+        }
+
+        #section{
+          display:flex; 
+          flex-wrap: wrap;
+        }
+      }
+      @media screen and (max-width:1000px){
+      #section1{
+          margin: 5px;
+          height: 100%;
+          width: 300%;
+          max-width: 900px;
+        }
+        #section2{
+          margin: 5px;
+          height: 100%;
+          width: 300%;
+          max-width: 900px;
+        }
+        #section3{
+          margin: 5px;
+          height: 100%;
+          width: 300%;
+          max-width: 900px;
+        }
+      }
+        #section{
+          display:flex; 
+        }
+        
+            </style>
+
+    </head>
+    <body>
+
+     <h1>Reasponsive Design with Button Actions</h1>
+     <div id="section1">
+        <h2>Section 1</h2>
+        <p>
+    This is the section. It has a light blue background, padding. margin and a box
+          shadow. The layout adjusts responsively to different screen sizes
+        </p>
+        <img src="images/section1">
+    </div>
+    <div id="section2">    
+        <h2>Section 2</h2>
+        <p>This is the second section. It has a light orange background,padding,margin,and a box shadow.
+         the layout adjusts responsively to different screen sizes.
+        </p>
+        <img src="images/section2">
+    </div>
+    <div id="section3">
+        <h2>Section 3</h2>
+        <p>
+        This is the third section. It has a light purple background,padding,margin,and abox shadow.
+        The layout adjusts responsively to different screen sizes.
+        </p>
+        <img src="images/section3">
+    </div>
+    <div id="section4">
+        <h2>Section 4</h2>
+        <p>
+        This is the second section. It has a light orange background,padding,margin,and a box shadow.
+        The layout adjusts responsively to different screen sizes.
+        </p>
+        <img src="images/section4">
+    </div>
+    <div id="footer">
+        <h3>
+        @2024 Advanced Responsive Desingn Pracyice
+        </h3>
+    </div>
+    </body>
+    </html>
